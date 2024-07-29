@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   
+  </head>
+  <body>
+    <main>
+      
+      <form id="search_space"> <input id="city-name" type="text" placeholder="Enter City Here" />
+      <button id="search-btn">🔍</button>
+      </form> 
+      <h2 id="city">Ranchi</h2>
+      <div class="date" id="date">Sun 21st July 2024</div>
+      <div id="condition"><img class="weather-icons" src="https://openweathermap.org/img/wn/01d@4x.png"><span id="weather-condition-text">cloud</span></div>
+      <h3 id="temp">29<img src="celsius.png"></h3>
+      <div class="status">
+        <div id="wind">
+          <img src="wind.png"/>
+          <p id="wind_text">4.63km/h</p>
+          <span>wind</span>
+        </div>
+        <div id="humidity">
+          <img src="humidity.png"/>
+          <p id="humidity_text">54%</p>
+          <span>Humidity</span>
+        </div>
+        <div id="visibility">
+          <img src="vision.png"/>
+          <p id="visibility_text">2.5km</p>
+          <span>visibility</span>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
